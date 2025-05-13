@@ -13,20 +13,15 @@ A serverless AWS application that notifies you whenever a Kenya Airways (KQ) pla
 - Secure credential management with AWS Secrets Manager.  
 - Fully automated with Terraform for easy deployment.  
 
----
 
-## Project Architecture**  
 
-+--------------------+         +-----------------------+         +------------------+
-|  OpenSky API       |         |  AWS Lambda          |         |  AWS SNS         |
-| (Flight Data)      | ----->  | (Fetch & Filter)     | ----->  | (Notifications)  |
-+--------------------+         +-----------------------+         +------------------+
+
 
 
 ## Getting Started
 1. Clone the Repository
 - git clone https://github.com/Copubah/KQ-flight-notifier
-cd kq-flight-notifier
+- cd kq-flight-notifier
 
 2. Install Terraform
 Make sure you have Terraform 0.15+ installed.
